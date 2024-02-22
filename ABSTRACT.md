@@ -1,4 +1,4 @@
-The authors created the **Expo Markers Dataset** - new public dataset intended for detection and segmentation tasks. The dataset comprises 5,000 synthetic photorealistic images along with 200 real images, each accompanied by its corresponding pixel-perfect segmentation ground truth. The authors aimed to achieve superior performance on manually gathered and annotated real-world data featuring custom objects. To accomplish this, they generated 3D models of the target objects as well as potential distraction objects, situating them within a simulated environment.
+The authors created the **Expo Markers Dataset** - new public synthetic dataset intended for detection and segmentation tasks. The dataset comprises 5,000 synthetic photorealistic images along with 200 real images, each accompanied by its corresponding pixel-perfect segmentation ground truth. The authors aimed to achieve superior performance on manually gathered and annotated real-world data featuring custom objects. To accomplish this, they generated 3D models of the target objects as well as potential distraction objects, situating them within a simulated environment.
 
 ## Motivation
 

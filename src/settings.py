@@ -20,13 +20,17 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.PubliclyAvailable(
-    source_url="https://github.com/DataGenResearchTeam/expo_markers#License"
+LICENSE: License = License.Unknown(
+    source_url="https://github.com/DataGenResearchTeam/expo_markers?tab=readme-ov-file#license"
 )
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.Surveillance()]
 CATEGORY: Category = Category.Surveillance()
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [
+    CVTask.InstanceSegmentation(),
+    CVTask.ObjectDetection(),
+    CVTask.SemanticSegmentation(),
+]
 ANNOTATION_TYPES: List[AnnotationType] = [
     AnnotationType.InstanceSegmentation(),
     AnnotationType.ObjectDetection(),
