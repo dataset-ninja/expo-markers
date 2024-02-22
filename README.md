@@ -1,3 +1,3 @@
 # Expo Markers Dataset
 
-Expo Markers is a dataset for instance segmentation and object detection tasks.
+Expo Markers is a dataset for instance segmentation, object detection, and semantic segmentation tasks.
